@@ -1,0 +1,33 @@
+research_task:
+  description: >
+    Identify 5 competitive products to {topic}
+    Collect company details (founding year, funding, revenue, MAUs)
+    Track recent releases and product updates
+  expected_output: >
+    Create a competitive analysis report
+  agent: researcher
+
+pricing_task:
+  description: >
+    Gather pricing details for all competitors
+    Compare pricing models (e.g., freemium, subscription, one-time purchase)
+    Identify unique pricing strategies
+  expected_output: >
+    A tabular format report comparing different pricing strategies
+  agent: pricing_analyst
+
+feature_analysis:
+  description: >
+    List the 10 most important/popular features in the industry
+    Compare features across 5 competitors and your product
+  expected_output: >
+    A tabular format report comparing features
+  agent: feature_analyst 
+
+report_generation:
+  description: >
+    Organize findings into a structured comparison table
+    Summarize insights (strengths, weaknesses, gaps) of {topic}
+  expected_output: >
+    A competitive analysis report with comprehensive analysis for easy decision making
+  agent: report_generator 
